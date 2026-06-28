@@ -223,6 +223,7 @@ img, svg { max-width: 100%; display: block; }
   padding-bottom: 2px;
 }
 .nav-list a:hover { border-bottom-color: var(--gold); }
+.nav-list a strong { color: var(--gold); font-weight: 700; }
 
 /* ============================================
    HERO
@@ -709,6 +710,14 @@ img, svg { max-width: 100%; display: block; }
 .cal-card-request h3 { color: var(--navy-deep); }
 .cal-card-request .cal-week { color: var(--slate); }
 .cal-card-request .link-arrow { color: var(--navy-deep); margin-top: var(--space-1); }
+
+.cal-card-resource {
+  background: var(--gold);
+  color: var(--navy-deep);
+}
+.cal-card-resource h3 { color: var(--navy-deep); }
+.cal-card-resource .cal-week { color: var(--navy-deep); opacity: 0.7; }
+.cal-card-resource .link-arrow { color: var(--navy-deep); margin-top: auto; font-weight: 700; }
 
 /* ============================================
    ABOUT / SUBSCRIBE

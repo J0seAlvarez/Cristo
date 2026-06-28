@@ -1,0 +1,128 @@
+/* Uses tokens already defined in styles.css — load that first */
+
+.practice-hero {
+  background: var(--navy-deep);
+  color: var(--cream);
+  padding: var(--space-5) 0 var(--space-4);
+  background-image:
+    repeating-linear-gradient(0deg, rgba(255,255,255,0.025) 0px, rgba(255,255,255,0.025) 1px, transparent 1px, transparent 32px),
+    repeating-linear-gradient(90deg, rgba(255,255,255,0.025) 0px, rgba(255,255,255,0.025) 1px, transparent 1px, transparent 32px);
+}
+
+.practice-hero h1 {
+  color: var(--cream);
+  font-size: clamp(1.9rem, 4vw, 2.7rem);
+  margin: var(--space-1) 0 var(--space-2);
+}
+
+.practice-lede {
+  color: #C9D2DE;
+  max-width: 65ch;
+  font-size: 1.05rem;
+}
+
+.practice-meta-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-top: var(--space-2);
+  flex-wrap: wrap;
+}
+.practice-meta-row .link-arrow {
+  color: var(--gold);
+}
+
+.practice-section { background: white; padding-top: var(--space-5); }
+
+.narrow {
+  max-width: 760px;
+}
+
+.pq {
+  border-bottom: 1px solid #E3DDCE;
+  padding: var(--space-3) 0;
+}
+.pq:first-child { padding-top: 0; }
+
+.pq-num {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  color: var(--gold-dark);
+  font-size: 1.05rem;
+  margin: 0 0 0.3rem 0;
+}
+
+.pq-text {
+  font-size: 1.08rem;
+  margin: 0 0 var(--space-2) 0;
+  color: var(--ink);
+}
+
+.pq-options {
+  list-style: none;
+  margin: 0 0 var(--space-1) 0;
+  padding: 0;
+  display: grid;
+  gap: 0.35rem;
+}
+.pq-options li {
+  font-family: var(--font-mono);
+  font-size: 0.98rem;
+  color: var(--ink-soft);
+}
+
+.pq-img {
+  display: block;
+  max-width: 100%;
+  margin: var(--space-2) 0;
+  border: 1px solid #E3DDCE;
+  border-radius: 6px;
+  background: white;
+}
+.pq-img-small {
+  max-width: 260px;
+}
+.pq-img-wide {
+  max-width: 100%;
+}
+
+.pq-shared-figure {
+  background: var(--cream);
+  border: 1px solid #E3DDCE;
+  border-radius: var(--radius);
+  padding: var(--space-3);
+  margin: var(--space-4) 0;
+}
+.pq-shared-label {
+  font-weight: 600;
+  margin: 0 0 var(--space-2) 0;
+  color: var(--navy-deep);
+}
+.pq-shared-figure .pq-img {
+  margin: 0;
+  border: none;
+}
+
+.answer-section { background: var(--cream); }
+.answer-note {
+  background: white;
+  border: 1px dashed var(--slate);
+  border-radius: var(--radius);
+  padding: var(--space-3);
+}
+.answer-note h2 {
+  font-size: 1.4rem;
+  margin-bottom: var(--space-2);
+}
+.answer-note p {
+  color: var(--ink-soft);
+  margin: 0;
+}
+
+.back-link {
+  margin-top: var(--space-3);
+}
+
+@media (max-width: 600px) {
+  .pq-img-small { max-width: 100%; }
+}
