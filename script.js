@@ -96,7 +96,9 @@ const answerKey = {
   q2: { correct: 'b', explain: { a: 'No es correcto — 1/4 es igual a 0.25, no 0.75.', b: 'Correcto — 3 ÷ 4 = 0.75.', c: 'No es correcto — 7/5 es mayor que 1, así que no puede ser igual a 0.75.' } },
   q3: { correct: 'b', explain: { a: 'No es correcto — la multiplicación se resuelve antes que la suma.', b: 'Correcto — el orden de operaciones resuelve la multiplicación antes que la suma: 4 × 2 = 8, luego 3 + 8 = 11.', c: 'No es correcto — el orden sí importa; cambia el resultado final.' } },
   q4: { correct: 'b', explain: { a: 'No es correcto — esto no incluye el impuesto de ventas.', b: 'Correcto — 8% de $25 es $2, así que el total es $25 + $2 = $27.', c: 'No es correcto — revisa el cálculo del 8%; el impuesto no es tan alto.' } },
-  q5: { correct: 'b', explain: { a: 'No es correcto — el nombre de la categoría va debajo de la barra, no en su altura.', b: 'Correcto — la altura de la barra muestra la cantidad o valor de esa categoría.', c: 'No es correcto — el color suele usarse para distinguir grupos, no para mostrar la cantidad.' } }
+  q5: { correct: 'b', explain: { a: 'No es correcto — el nombre de la categoría va debajo de la barra, no en su altura.', b: 'Correcto — la altura de la barra muestra la cantidad o valor de esa categoría.', c: 'No es correcto — el color suele usarse para distinguir grupos, no para mostrar la cantidad.' } },
+  q6: { correct: 'b', explain: { a: 'No es correcto — el Cuadrante I tiene X y Y positivos; aquí X es negativo.', b: 'Correcto — X negativo y Y positivo corresponde al Cuadrante II (arriba a la izquierda).', c: 'No es correcto — el Cuadrante III tiene X y Y negativos; aquí Y es positivo.' } },
+  q7: { correct: 'b', explain: { a: 'No es correcto — el primer número (2) se mueve sobre el eje X, antes de moverte en Y.', b: 'Correcto — el primer número del par (2) indica el movimiento horizontal, así que te mueves 2 a la derecha primero.', c: 'No es correcto — el segundo número es −5, así que te moverás hacia abajo, no hacia arriba, y solo después de moverte en X.' } }
 };
 
 quizForm.addEventListener('submit', (e) => {

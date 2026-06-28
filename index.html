@@ -199,13 +199,23 @@
         </div>
 
         <article class="ledger-row" role="row">
+          <span class="wk" role="cell" data-label="Semana">06</span>
+          <span class="topic" role="cell" data-label="Tema">
+            <a href="#post-06"><strong>El plano cartesiano y los cuatro cuadrantes</strong></a>
+            <span class="topic-sub">Cómo ubicar cualquier punto (x, y) y reconocer en qué cuadrante cae.</span>
+          </span>
+          <span class="tag" role="cell" data-label="Área">Matemáticas</span>
+          <span class="status status-new" role="cell" data-label="Estado">Nuevo</span>
+        </article>
+
+        <article class="ledger-row" role="row">
           <span class="wk" role="cell" data-label="Semana">04</span>
           <span class="topic" role="cell" data-label="Tema">
             <a href="#post-04"><strong>Porcentajes en la vida diaria</strong></a>
             <span class="topic-sub">Descuentos, impuestos y propinas — el mismo método para los tres.</span>
           </span>
           <span class="tag" role="cell" data-label="Área">Matemáticas</span>
-          <span class="status status-new" role="cell" data-label="Estado">Nuevo</span>
+          <span class="status" role="cell" data-label="Estado">Visto</span>
         </article>
 
         <article class="ledger-row" role="row">
@@ -241,7 +251,79 @@
     </div>
   </section>
 
-  <!-- ============ FEATURED POST ============ -->
+  <!-- ============ FEATURED POST: SEMANA 06 ============ -->
+  <section class="section post-section" id="post-06" aria-labelledby="post-06-h">
+    <div class="section-inner post-inner">
+      <p class="eyebrow">Semana 06 · 6–16 de junio · Matemáticas</p>
+      <h2 id="post-06-h">El plano cartesiano y los cuatro cuadrantes</h2>
+      <p class="post-meta">Publicado martes · Lectura de 7 min · Cristóbal León-Estrada</p>
+
+      <div class="post-body">
+        <p>El plano cartesiano (o eje de coordenadas) es uno de los sistemas más importantes en la prueba de Matemáticas del GED. Te permite ubicar cualquier punto y graficar ecuaciones usando dos líneas perpendiculares.</p>
+
+        <h3>Estructura básica</h3>
+        <ul>
+          <li><strong>Eje X (abscisa):</strong> la línea horizontal. Los números positivos van a la derecha, los negativos a la izquierda.</li>
+          <li><strong>Eje Y (ordenada):</strong> la línea vertical. Los números positivos van hacia arriba, los negativos hacia abajo.</li>
+          <li><strong>Origen:</strong> el punto central (0, 0), donde se cruzan los dos ejes.</li>
+        </ul>
+
+        <h3>Pares ordenados</h3>
+        <p>Cada punto se escribe como un par ordenado (x, y). El primer número dice cuánto moverte a los lados; el segundo, cuánto moverte hacia arriba o abajo. Por ejemplo, para ubicar el punto (3, −2):</p>
+        <ol>
+          <li>Comienza en el origen (0, 0).</li>
+          <li>Muévete 3 espacios a la derecha sobre el eje X.</li>
+          <li>Desde ahí, muévete 2 espacios hacia abajo.</li>
+        </ol>
+
+        <div class="diagram-wrap">
+          <svg viewBox="0 0 320 260" role="img" aria-labelledby="quadTitle" class="quad-diagram">
+            <title id="quadTitle">Plano cartesiano con los cuatro cuadrantes y el punto (3, -2) marcado</title>
+            <rect x="0" y="0" width="320" height="260" fill="white"/>
+            <!-- quadrant labels -->
+            <text x="240" y="40" class="quad-label">I</text>
+            <text x="60" y="40" class="quad-label">II</text>
+            <text x="60" y="220" class="quad-label">III</text>
+            <text x="240" y="220" class="quad-label">IV</text>
+            <!-- grid lines -->
+            <line x1="20" y1="20" x2="20" y2="240" stroke="#E3DDCE" stroke-width="1"/>
+            <line x1="80" y1="20" x2="80" y2="240" stroke="#E3DDCE" stroke-width="1"/>
+            <line x1="140" y1="20" x2="140" y2="240" stroke="#E3DDCE" stroke-width="1"/>
+            <line x1="200" y1="20" x2="200" y2="240" stroke="#E3DDCE" stroke-width="1"/>
+            <line x1="260" y1="20" x2="260" y2="240" stroke="#E3DDCE" stroke-width="1"/>
+            <line x1="300" y1="20" x2="300" y2="240" stroke="#E3DDCE" stroke-width="1"/>
+            <line x1="20" y1="40" x2="300" y2="40" stroke="#E3DDCE" stroke-width="1"/>
+            <line x1="20" y1="80" x2="300" y2="80" stroke="#E3DDCE" stroke-width="1"/>
+            <line x1="20" y1="160" x2="300" y2="160" stroke="#E3DDCE" stroke-width="1"/>
+            <line x1="20" y1="200" x2="300" y2="200" stroke="#E3DDCE" stroke-width="1"/>
+            <!-- axes -->
+            <line x1="20" y1="130" x2="300" y2="130" stroke="#5C7A8A" stroke-width="2"/>
+            <line x1="160" y1="20" x2="160" y2="240" stroke="#5C7A8A" stroke-width="2"/>
+            <text x="305" y="134" class="axis-label">x</text>
+            <text x="164" y="16" class="axis-label">y</text>
+            <text x="166" y="146" class="axis-label">(0,0)</text>
+            <!-- point (3,-2): each grid square = 1 unit = 20px -->
+            <circle cx="220" cy="170" r="5" fill="#C84A3D"/>
+            <line x1="160" y1="170" x2="220" y2="170" stroke="#C84A3D" stroke-width="1.5" stroke-dasharray="3,3"/>
+            <line x1="220" y1="130" x2="220" y2="170" stroke="#C84A3D" stroke-width="1.5" stroke-dasharray="3,3"/>
+            <text x="226" y="176" class="point-label">(3, −2)</text>
+          </svg>
+          <p class="plot-caption">El punto (3, −2) cae en el Cuadrante IV: 3 espacios a la derecha del origen, 2 espacios hacia abajo.</p>
+        </div>
+
+        <h3>Los cuatro cuadrantes</h3>
+        <ul>
+          <li><strong>Cuadrante I:</strong> arriba a la derecha (X positivo, Y positivo).</li>
+          <li><strong>Cuadrante II:</strong> arriba a la izquierda (X negativo, Y positivo).</li>
+          <li><strong>Cuadrante III:</strong> abajo a la izquierda (X negativo, Y negativo).</li>
+          <li><strong>Cuadrante IV:</strong> abajo a la derecha (X positivo, Y negativo).</li>
+        </ul>
+        <p>Truco rápido para el examen: solo necesitas ver los signos de x e y para saber el cuadrante, sin tener que graficar el punto completo.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FEATURED POST: SEMANA 04 ============ -->
   <section class="section post-section" id="post-04" aria-labelledby="post-04-h">
     <div class="section-inner post-inner">
       <p class="eyebrow">Semana 04 · Matemáticas</p>
@@ -265,6 +347,20 @@
       </div>
 
       <div class="video-grid">
+        <article class="video-card">
+          <div class="video-frame">
+            <iframe
+              src="https://www.youtube.com/embed/eKr8Yd_KK4w"
+              title="Cómo graficar puntos en el plano cartesiano"
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+          </div>
+          <h3>Cómo graficar puntos en el plano cartesiano</h3>
+          <p class="video-meta">Semana 06</p>
+        </article>
+
         <article class="video-card">
           <div class="video-frame">
             <iframe
@@ -357,6 +453,22 @@
           <label class="quiz-opt"><input type="radio" name="q5" value="b"> La cantidad o valor de esa categoría</label>
           <label class="quiz-opt"><input type="radio" name="q5" value="c"> El color de la barra</label>
           <p class="quiz-feedback" data-for="q5" hidden></p>
+        </fieldset>
+
+        <fieldset class="quiz-q">
+          <legend>6. El punto (−4, 5) se encuentra en:</legend>
+          <label class="quiz-opt"><input type="radio" name="q6" value="a"> Cuadrante I</label>
+          <label class="quiz-opt"><input type="radio" name="q6" value="b"> Cuadrante II</label>
+          <label class="quiz-opt"><input type="radio" name="q6" value="c"> Cuadrante III</label>
+          <p class="quiz-feedback" data-for="q6" hidden></p>
+        </fieldset>
+
+        <fieldset class="quiz-q">
+          <legend>7. Para graficar el punto (2, −5), ¿qué haces primero después de comenzar en el origen?</legend>
+          <label class="quiz-opt"><input type="radio" name="q7" value="a"> Moverte 5 espacios hacia abajo</label>
+          <label class="quiz-opt"><input type="radio" name="q7" value="b"> Moverte 2 espacios a la derecha</label>
+          <label class="quiz-opt"><input type="radio" name="q7" value="c"> Moverte 2 espacios hacia arriba</label>
+          <p class="quiz-feedback" data-for="q7" hidden></p>
         </fieldset>
 
         <div class="quiz-controls">
