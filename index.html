@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSKLS 741 — Preparación para el GED: Matemáticas y Ciencias | Santa Rosa Junior College</title>
+<meta name="description" content="Repasos semanales, videos y práctica para estudiantes de CSKLS 741, preparación del examen GED en matemáticas y ciencias. Verano 2025, Santa Rosa Junior College.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Saltar al contenido principal</a>
+
+<!-- ============ HEADER / NAV ============ -->
+<header class="site-header">
+  <div class="header-inner">
+    <a href="#top" class="brand">
+      <span class="brand-mark" aria-hidden="true">∑</span>
+      <span class="brand-text">CSKLS 741</span>
+    </a>
+
+    <nav class="main-nav" aria-label="Navegación principal">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list" id="navToggle">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="visually-hidden">Menú</span>
+      </button>
+      <ul class="nav-list" id="nav-list">
+        <li><a href="#clase">Información de la Clase</a></li>
+        <li><a href="#weekly">Repasos Semanales</a></li>
+        <li><a href="#videos">Videos</a></li>
+        <li><a href="#quiz">Práctica</a></li>
+        <li><a href="#calendar">Calendario</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="top">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">CSKLS 741 · Sección 8175 · Verano 2025</p>
+        <h1>Basic Academic Skills & GED Prep<br><em>Matemáticas y Ciencias</em></h1>
+        <p class="hero-lede">Estrategias semanales para resolver problemas con números, álgebra, ecuaciones, tablas, gráficas y geometría — todo enfocado en aprobar el examen del GED.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#clase">Ver información de la clase</a>
+          <a class="btn btn-ghost" href="#quiz">Practicar ahora</a>
+        </div>
+      </div>
+
+      <div class="hero-plot" aria-label="Graficador de funciones interactivo">
+        <div class="plot-card">
+          <div class="plot-card-head">
+            <span class="plot-label">f(x) =</span>
+            <select id="fnSelect" aria-label="Elige una función para graficar">
+              <option value="sinx">sin(x)</option>
+              <option value="x2">x²</option>
+              <option value="x3">x³ − 3x</option>
+              <option value="logx">ln(x)</option>
+              <option value="expx" selected>eˣ ⁄ 4</option>
+            </select>
+          </div>
+          <svg id="plotSvg" viewBox="0 0 320 220" role="img" aria-labelledby="plotTitle">
+            <title id="plotTitle">Gráfica de la función seleccionada</title>
+          </svg>
+          <p class="plot-caption">Elige una función — la curva se dibuja al instante. Así se practica también en cada repaso de este curso: viendo, no solo leyendo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ INFORMACIÓN DE LA CLASE ============ -->
+  <section class="section class-info-section" id="clase">
+    <div class="section-inner">
+      <div class="section-head">
+        <h2>Información de la Clase</h2>
+        <p class="section-sub">Todo lo que necesitas para asistir a clase y mantenerte al día.</p>
+      </div>
+
+      <div class="info-grid">
+        <div class="info-card">
+          <h3>Contacto e instructor</h3>
+          <dl class="info-list">
+            <div class="info-row">
+              <dt>Instructor</dt>
+              <dd>Cristóbal León-Estrada</dd>
+            </div>
+            <div class="info-row">
+              <dt>Lugar</dt>
+              <dd>Santa Rosa Junior College — En línea</dd>
+            </div>
+            <div class="info-row">
+              <dt>Teléfono</dt>
+              <dd><a href="tel:+17075274900">707-527-4900</a>, Ext. 9658</dd>
+            </div>
+            <div class="info-row">
+              <dt>Correo electrónico</dt>
+              <dd><a href="mailto:paisa6727@gmail.com">Enviar un correo al instructor</a></dd>
+            </div>
+            <div class="info-row">
+              <dt>Enlace de clase</dt>
+              <dd><a href="https://santarosa-edu.zoom.us/j/87049911941" target="_blank" rel="noopener">Entrar al Zoom de la clase ↗</a></dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="info-card">
+          <h3>Calendario y horario</h3>
+          <dl class="info-list">
+            <div class="info-row">
+              <dt>Inicio de clase</dt>
+              <dd>16 de junio</dd>
+            </div>
+            <div class="info-row">
+              <dt>Último día de clase</dt>
+              <dd>12 de agosto</dd>
+            </div>
+            <div class="info-row">
+              <dt>Horario</dt>
+              <dd>Martes y jueves, 6:00 PM – 9:00 PM</dd>
+            </div>
+            <div class="info-row">
+              <dt>Horas de oficina</dt>
+              <dd>5:30 PM – 6:00 PM (antes de clase)</dd>
+            </div>
+            <div class="info-row">
+              <dt>Día feriado</dt>
+              <dd>18 de junio — Juneteenth (no hay clase)</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="info-card info-card-wide">
+          <h3>Descripción del curso</h3>
+          <p>Esta clase fue creada para ayudar al estudiante a obtener los conocimientos necesarios para aprobar el examen del GED. Aprenderás estrategias para resolver problemas escritos con expresiones numéricas, algebraicas, ecuaciones, tablas, gráficas, figuras geométricas y esquemas.</p>
+
+          <h4>Resultado de aprendizaje estudiantil</h4>
+          <p>Resolver problemas matemáticos usando números enteros, decimales, fracciones y porcentajes en clase, en el lugar de trabajo y en situaciones personales.</p>
+
+          <div class="info-cols">
+            <div>
+              <h4>Materiales</h4>
+              <ul>
+                <li>Papel, lápiz o pluma y calculadora TI-30Xs</li>
+                <li>Carpeta de 3 aros</li>
+                <li>Reglas y otros materiales se proporcionarán en clase</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Reglas de clase</h4>
+              <ul>
+                <li>Asistir regularmente a clase</li>
+                <li>Prestar atención durante clase, ya sea al maestro o a un compañero/a que esté hablando al grupo</li>
+                <li>Uso de celular limitado a emergencias — contestar fuera de la clase</li>
+                <li>Dejar limpia el área de trabajo: vasos, papel y basura del sacapuntas al bote</li>
+              </ul>
+            </div>
+          </div>
+
+          <h4>Calificaciones</h4>
+          <table class="grading-table">
+            <thead>
+              <tr><th>Clave</th><th>Significado</th></tr>
+            </thead>
+            <tbody>
+              <tr><td><span class="tag">P</span></td><td>Aprobado</td></tr>
+              <tr><td><span class="tag">S</span></td><td>Satisfactorio</td></tr>
+              <tr><td><span class="tag">NP</span></td><td>No Aprobado</td></tr>
+              <tr><td><span class="tag">DR / W</span></td><td>Dejar la clase o darse de baja</td></tr>
+            </tbody>
+          </table>
+          <p class="grading-note">Para obtener la "P", los estudiantes deberán asistir regularmente, participar en clase y hacer la tarea.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WEEKLY POSTS — GRADEBOOK LEDGER ============ -->
+  <section class="section ledger-section" id="weekly">
+    <div class="section-inner">
+      <div class="section-head">
+        <h2>Repasos de la semana</h2>
+        <p class="section-sub">Publicado cada martes. Cada repaso toma unos 12 minutos: una lectura corta, un video de 4–6 minutos y una práctica de 5 preguntas.</p>
+      </div>
+
+      <div class="ledger" role="table" aria-label="Registro de repasos semanales">
+        <div class="ledger-row ledger-row-head" role="row">
+          <span role="columnheader">Sem.</span>
+          <span role="columnheader">Tema</span>
+          <span role="columnheader">Área</span>
+          <span role="columnheader">Estado</span>
+        </div>
+
+        <article class="ledger-row" role="row">
+          <span class="wk" role="cell" data-label="Semana">04</span>
+          <span class="topic" role="cell" data-label="Tema">
+            <a href="#post-04"><strong>Porcentajes en la vida diaria</strong></a>
+            <span class="topic-sub">Descuentos, impuestos y propinas — el mismo método para los tres.</span>
+          </span>
+          <span class="tag" role="cell" data-label="Área">Matemáticas</span>
+          <span class="status status-new" role="cell" data-label="Estado">Nuevo</span>
+        </article>
+
+        <article class="ledger-row" role="row">
+          <span class="wk" role="cell" data-label="Semana">03</span>
+          <span class="topic" role="cell" data-label="Tema">
+            <a href="#post-03"><strong>Fracciones a decimales, sin miedo</strong></a>
+            <span class="topic-sub">Un método simple para convertir en cualquier dirección.</span>
+          </span>
+          <span class="tag" role="cell" data-label="Área">Matemáticas</span>
+          <span class="status" role="cell" data-label="Estado">Visto</span>
+        </article>
+
+        <article class="ledger-row" role="row">
+          <span class="wk" role="cell" data-label="Semana">02</span>
+          <span class="topic" role="cell" data-label="Tema">
+            <a href="#post-02"><strong>Leer tablas y gráficas para el GED</strong></a>
+            <span class="topic-sub">Cómo encontrar la respuesta sin perderte en los detalles.</span>
+          </span>
+          <span class="tag" role="cell" data-label="Área">Ciencias</span>
+          <span class="status" role="cell" data-label="Estado">Visto</span>
+        </article>
+
+        <article class="ledger-row" role="row">
+          <span class="wk" role="cell" data-label="Semana">01</span>
+          <span class="topic" role="cell" data-label="Tema">
+            <a href="#post-01"><strong>Orden de operaciones, paso a paso</strong></a>
+            <span class="topic-sub">El mismo error que comete casi todo el mundo, y cómo evitarlo.</span>
+          </span>
+          <span class="tag" role="cell" data-label="Área">Matemáticas</span>
+          <span class="status" role="cell" data-label="Estado">Visto</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FEATURED POST ============ -->
+  <section class="section post-section" id="post-04" aria-labelledby="post-04-h">
+    <div class="section-inner post-inner">
+      <p class="eyebrow">Semana 04 · Matemáticas</p>
+      <h2 id="post-04-h">Porcentajes en la vida diaria</h2>
+      <p class="post-meta">Publicado martes · Lectura de 6 min · Cristóbal León-Estrada</p>
+
+      <div class="post-body">
+        <p>Los porcentajes aparecen en el examen del GED de tres formas principales: descuentos en tiendas, impuestos sobre ventas, y propinas. Buena noticia: las tres usan exactamente el mismo método.</p>
+        <p>El truco es convertir el porcentaje a decimal dividiendo entre 100, y luego multiplicar por la cantidad original. Por ejemplo, un descuento del 20% en algo que cuesta $50: 20 ÷ 100 = 0.20, y 0.20 × 50 = $10 de descuento. El precio final es $50 − $10 = $40.</p>
+        <p>El video de abajo trabaja tres ejemplos reales — un descuento, un impuesto, y una propina — usando el mismo método cada vez, para que veas el patrón repetirse.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ VIDEOS ============ -->
+  <section class="section video-section" id="videos">
+    <div class="section-inner">
+      <div class="section-head">
+        <h2>Míralo resuelto, no solo escrito</h2>
+        <p class="section-sub">Cada repaso viene con un video corto. Sin introducciones largas — van directo al problema.</p>
+      </div>
+
+      <div class="video-grid">
+        <article class="video-card">
+          <div class="video-frame">
+            <iframe
+              src="https://www.youtube.com/embed/sUiAedmcZ7M"
+              title="Porcentajes explicados paso a paso"
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+          </div>
+          <h3>Porcentajes: descuentos, impuestos y propinas</h3>
+          <p class="video-meta">6:10 · Semana 04</p>
+        </article>
+
+        <article class="video-card">
+          <div class="video-frame">
+            <iframe
+              src="https://www.youtube.com/embed/Pcd1tGEMTRg"
+              title="Convertir fracciones a decimales"
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+          </div>
+          <h3>Fracciones a decimales, paso a paso</h3>
+          <p class="video-meta">5:20 · Semana 03</p>
+        </article>
+
+        <article class="video-card">
+          <div class="video-frame">
+            <iframe
+              src="https://www.youtube.com/embed/4d6pioMzkjg"
+              title="Cómo leer tablas y gráficas"
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+          </div>
+          <h3>Leer tablas y gráficas correctamente</h3>
+          <p class="video-meta">4:45 · Semana 02</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PRACTICE QUIZ ============ -->
+  <section class="section quiz-section" id="quiz">
+    <div class="section-inner">
+      <div class="section-head">
+        <h2>Práctica de 5 preguntas</h2>
+        <p class="section-sub">Basada en el tema de esta semana. Cada respuesta explica el porqué, ya sea correcta o incorrecta.</p>
+      </div>
+
+      <form class="quiz" id="quizForm" novalidate>
+        <fieldset class="quiz-q">
+          <legend>1. Un artículo cuesta $80 y tiene un descuento del 15%. ¿Cuánto es el descuento?</legend>
+          <label class="quiz-opt"><input type="radio" name="q1" value="a"> $12</label>
+          <label class="quiz-opt"><input type="radio" name="q1" value="b"> $15</label>
+          <label class="quiz-opt"><input type="radio" name="q1" value="c"> $65</label>
+          <p class="quiz-feedback" data-for="q1" hidden></p>
+        </fieldset>
+
+        <fieldset class="quiz-q">
+          <legend>2. ¿Cuál fracción es igual a 0.75?</legend>
+          <label class="quiz-opt"><input type="radio" name="q2" value="a"> 1/4</label>
+          <label class="quiz-opt"><input type="radio" name="q2" value="b"> 3/4</label>
+          <label class="quiz-opt"><input type="radio" name="q2" value="c"> 7/5</label>
+          <p class="quiz-feedback" data-for="q2" hidden></p>
+        </fieldset>
+
+        <fieldset class="quiz-q">
+          <legend>3. Según el orden de operaciones, ¿qué se resuelve primero en 3 + 4 × 2?</legend>
+          <label class="quiz-opt"><input type="radio" name="q3" value="a"> 3 + 4</label>
+          <label class="quiz-opt"><input type="radio" name="q3" value="b"> 4 × 2</label>
+          <label class="quiz-opt"><input type="radio" name="q3" value="c"> Da igual el orden</label>
+          <p class="quiz-feedback" data-for="q3" hidden></p>
+        </fieldset>
+
+        <fieldset class="quiz-q">
+          <legend>4. Si el impuesto de ventas es 8% y compras algo de $25, ¿cuánto pagas en total (redondeado)?</legend>
+          <label class="quiz-opt"><input type="radio" name="q4" value="a"> $25.00</label>
+          <label class="quiz-opt"><input type="radio" name="q4" value="b"> $27.00</label>
+          <label class="quiz-opt"><input type="radio" name="q4" value="c"> $33.00</label>
+          <p class="quiz-feedback" data-for="q4" hidden></p>
+        </fieldset>
+
+        <fieldset class="quiz-q">
+          <legend>5. En una gráfica de barras, ¿qué representa normalmente la altura de cada barra?</legend>
+          <label class="quiz-opt"><input type="radio" name="q5" value="a"> El nombre de la categoría</label>
+          <label class="quiz-opt"><input type="radio" name="q5" value="b"> La cantidad o valor de esa categoría</label>
+          <label class="quiz-opt"><input type="radio" name="q5" value="c"> El color de la barra</label>
+          <p class="quiz-feedback" data-for="q5" hidden></p>
+        </fieldset>
+
+        <div class="quiz-controls">
+          <button type="submit" class="btn btn-primary">Revisar mis respuestas</button>
+          <p class="quiz-score" id="quizScore" role="status" aria-live="polite"></p>
+        </div>
+      </form>
+
+      <p class="quiz-alt">¿Prefieres una versión que puedas repetir en tu teléfono? <a href="https://forms.google.com" target="_blank" rel="noopener">Abre la práctica de esta semana en Google Forms</a> o <a href="https://quizlet.com" target="_blank" rel="noopener">repasa los términos en Quizlet</a>.</p>
+    </div>
+  </section>
+
+  <!-- ============ CONTENT CALENDAR ============ -->
+  <section class="section calendar-section" id="calendar">
+    <div class="section-inner">
+      <div class="section-head">
+        <h2>Próximos temas</h2>
+        <p class="section-sub">Publicado cada martes. Los temas pueden ajustarse según lo que más se necesite en clase.</p>
+      </div>
+
+      <div class="calendar-grid">
+        <article class="cal-card">
+          <p class="cal-week">Semana 05 · 8 de julio</p>
+          <h3>Ecuaciones simples: despejar la incógnita paso a paso</h3>
+          <span class="tag">Matemáticas</span>
+        </article>
+        <article class="cal-card">
+          <p class="cal-week">Semana 06 · 15 de julio</p>
+          <h3>Área y perímetro de figuras comunes en el GED</h3>
+          <span class="tag">Matemáticas</span>
+        </article>
+        <article class="cal-card">
+          <p class="cal-week">Semana 07 · 22 de julio</p>
+          <h3>El método científico, explicado en cinco pasos</h3>
+          <span class="tag">Ciencias</span>
+        </article>
+        <article class="cal-card cal-card-request">
+          <p class="cal-week">Tu tema aquí</p>
+          <h3>Pide un tema o pregunta algo en clase.</h3>
+          <a class="link-arrow" href="#clase">Contactar al instructor →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p>&copy; 2025 CSKLS 741 · Santa Rosa Junior College</p>
+    <p class="footer-note">¿Encontraste un error en un repaso? <a href="#clase">Avísale al instructor</a>.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
